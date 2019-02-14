@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BundleCalculatorV3", "BundleCalculatorV3\BundleCalculatorV3.csproj", "{B04B37D9-B9E4-4909-96F2-5A051B4CAA69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BundleCalculatorV3Tests", "BundleCalculatorV3Tests\BundleCalculatorV3Tests.csproj", "{79EE5001-DC1C-462D-829D-2EC8558D2548}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B04B37D9-B9E4-4909-96F2-5A051B4CAA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04B37D9-B9E4-4909-96F2-5A051B4CAA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04B37D9-B9E4-4909-96F2-5A051B4CAA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79EE5001-DC1C-462D-829D-2EC8558D2548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79EE5001-DC1C-462D-829D-2EC8558D2548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79EE5001-DC1C-462D-829D-2EC8558D2548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79EE5001-DC1C-462D-829D-2EC8558D2548}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

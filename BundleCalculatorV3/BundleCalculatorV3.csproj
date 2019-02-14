@@ -43,8 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\FilledResult.cs" />
+    <Compile Include="Algorithm\MiniumBundleCalculator.cs" />
+    <Compile Include="Model\AllMediaBundles.cs" />
+    <Compile Include="Model\ClientOrder.cs" />
+    <Compile Include="Model\FilledClientOrder.cs" />
+    <Compile Include="Model\FilledMediaOrder.cs" />
+    <Compile Include="Model\FilledSingleBundle.cs" />
+    <Compile Include="Model\MediaBundles.cs" />
+    <Compile Include="Model\MediaOrder.cs" />
+    <Compile Include="Model\SingleBundle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ClientOrderCalculator.cs" />
+    <Compile Include="Service\InitAllMediaBundleItem.cs" />
+    <Compile Include="Service\MediaOrderCalculator.cs" />
+    <Compile Include="Utility\IniHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
